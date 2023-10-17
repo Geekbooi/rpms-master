@@ -1,0 +1,115 @@
+<html lang="en">
+<head th:insert="~{fragments/htmlhead :: head (title='Welcome')}">
+<body>
+    <div class="container">
+        <header th:insert="~{fragments/header :: header}"></header>
+
+        <div class="row">
+            <div th:insert="~{fragments/navigation :: navigation}"></div>
+
+            <div th:replace="~{fragments/content :: content}"></div>
+
+            <img src="/images/home.jpeg" class="card-img-top" alt="..." height="600px">
+        </div>
+
+
+        <div class="container mt-5 mb-5">
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="https://photos.zillowstatic.com/fp/82006d4ac4dc14af0b86756ce978b1db-cc_ft_1536.webp" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Gorgeous 3 bedroom/2.5 bath detached condominium with open floor plan and more!! Quiet neighborhood, located in a private gated community with low HOA</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Contact</button>
+                                </div>
+                                <small class="text-muted">Town Home</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="https://photos.zillowstatic.com/fp/43b3f0355f3ff591f613e2809978d3c1-cc_ft_1536.webp" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Great value for this top floor condo, priced much lower than recent sales in the complex. Located within the middle of the complex - it’s far from Sherman Way street noise.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Contact</button>
+                                </div>
+                                <small class="text-muted">Town Home</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="https://photos.zillowstatic.com/fp/a38088b3384859d0a13127d8b53ec069-cc_ft_1536.webp" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Great 1 bedroom 1 bathroom with a Southern exposure for lots of natural light is first time on the market in over 35 years. This apartment styled condo has a great feature.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Contact</button>
+                                </div>
+                                <small class="text-muted">Town Home</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="https://photos.zillowstatic.com/fp/4ad6671283c39fe290ad3867399f76f6-cc_ft_1536.webp" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Welcome to this captivating home nestled in the coveted neighborhood of Sherman Oaks, ideally located south of Ventura Boulevard. </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Contact</button>
+                                </div>
+                                <small class="text-muted">Town Home</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="https://photos.zillowstatic.com/fp/b01df9210f25c7385396b37b6e2d2bfc-cc_ft_1536.webp" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Contact</button>
+                                </div>
+                                <small class="text-muted">Town Home</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="https://photos.zillowstatic.com/fp/352d86b09485b5bb7565a8f1cd43baf1-cc_ft_1536.webp" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Attention Investors and Homebuyers! Incredible Opportunity: 4-Plex Back on the Market!!!!    Are you searching for the perfect real estate investment?</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Contact</button>
+                                </div>
+                                <small class="text-muted">Town Home</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div th:insert="~{fragments/scripts :: scripts}"></div>
+</body>
+</html>
